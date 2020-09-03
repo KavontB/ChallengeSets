@@ -37,7 +37,8 @@ namespace ChallengeSets
 
         public string GetGreeting(string nameOfPerson)
         {
-            throw new NotImplementedException();
+            
+            return (nameOfPerson == "") ? "Hello!" : $"Hello, {nameOfPerson}!";
         }
 
         public string GetHey()
